@@ -1,3 +1,5 @@
+// https://youtu.be/t0CamwDbpg8
+// https://youtu.be/_B78IhzyKN0
 let fondo;
 let pj;
 let farol;
@@ -26,7 +28,7 @@ class Juego {
   }
   dibujar() {
     if(this.personaje.save==0 && this.personaje.vuelta==this.vuelta){
-      image(fondo[4],0,-50,(1672/2),(941/2));
+      image(fondo,0,-50,(1672/2),(941/2));
       this.dibujarPersonaje();
       this.npc.dibujar();
       image(farol,posfalx+(this.personaje.save),posfaly,(48*3),(105*3));
